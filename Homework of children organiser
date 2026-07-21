@@ -1,0 +1,24 @@
+marks = [85, 90, 78, 92, 60, 74, 88]
+
+print("Marks List:", marks)
+print("Length:", len(marks))
+
+print("First Mark:", marks[0])
+print("Last Mark:", marks[-1])
+print("First 3 Marks:", marks[0:3])
+print("Last 3 Marks:", marks[-3:])
+
+print("\nIterating through marks:")
+for mark in marks:
+    print(mark)
+
+total = sum(marks)
+average = total / len(marks)
+smallest = min(marks)
+largest = max(marks)
+
+print("\n--- Summary ---")
+print("Total:", total)
+print("Average:", round(average, 2))
+print("Smallest:", smallest)
+print("Largest:", largest)
